@@ -1,0 +1,64 @@
+/*
+ * Theme Name:     Panayiotis Georgiou footer
+ * Theme URI:      http://panayiotisgeorgiou.com/
+ * Description:    3 column footer for wordpress theme
+ * Author:         Panayiotis Georgiou
+ * Author URI:     http://www.panayiotisgeorgiou.com
+ * Template:       twentytwelve
+ * Version:        0.1.0
+ * */
+
+@import url("../twentytwelve/style.css");
+
+.widget-area .widget h3 {
+  margin-bottom:0;
+}
+
+#footerwidgets {
+ width:100%;
+}
+#footerwidgets p {
+ padding-bottom: .5em;
+}
+#footerwidgets li, #footerwidgets p  {
+ padding-bottom: .5em;
+ font-size:80%;
+ line-height:1.1em;
+}
+#footer-left {
+ width:30%;
+ float:left;
+ padding-right:2.5%;
+}
+#footer-middle {
+ width:30%;
+ float:left;
+ padding-left:2.5%;
+ padding-right: 2.5%;
+}
+#footer-right {
+ width:30%;
+ float:right;
+ padding-left:2.5%;
+} 
+.site-content article {
+  border-bottom:none;
+}
+@media only screen
+and (max-width:481px) {
+
+   #footer-right, #footer-middle, #footer-left {
+     float:none;
+     padding-left:0;
+     padding-right:0;
+     padding-top:1em;
+     width:100%;
+   }
+}
+
+.the-social-link {
+  text-align:center;
+}
+.the-social-link img {
+  padding:5px;
+}
